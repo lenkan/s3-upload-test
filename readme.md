@@ -11,7 +11,7 @@ docker compose up
 Set S3_ENDPOINT to point to minio:
 
 ```
-export S3_ENDOINT=http://localhost:9000
+export S3_ENDPOINT=http://localhost:9000
 ```
 
 Or,
