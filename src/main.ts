@@ -6,7 +6,7 @@ import { createBucket, deleteBucket } from "./create-bucket";
 
 const client = createClient();
 const count = parseInt(process.argv[2] ?? 100);
-const size = 1000;
+const size = 10 * 2 ** 20;
 const bucket = `test-${randomUUID()}`;
 
 try {
